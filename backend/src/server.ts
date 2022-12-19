@@ -10,16 +10,17 @@ scheduleJobs()
 
 const app = express()
 
-
+/*
 const mongo_url = process.env.MONGO_URL || ""
 
 
 mongoose.connect(mongo_url, {
-    useNewUrlParser:true,
+/    useNewUrlParser:true,
     useUnifiedTopology:true,
     useCreateIndex:true,
     useFindAndModify:false
 });
+*/
 
 app.set('view engine','ejs');
 app.use(cors())
