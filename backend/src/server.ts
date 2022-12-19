@@ -21,6 +21,7 @@ mongoose.connect(mongo_url, {
     useFindAndModify:false
 });
 */
+console.log(process.env);
 
 app.set('view engine','ejs');
 app.use(cors())
