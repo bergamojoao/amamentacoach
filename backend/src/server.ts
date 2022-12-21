@@ -10,7 +10,7 @@ scheduleJobs()
 
 const app = express()
 
-/*
+
 const mongo_url = process.env.MONGO_URL || ""
 
 
@@ -20,7 +20,7 @@ mongoose.connect(mongo_url, {
     useCreateIndex:true,
     useFindAndModify:false
 });
-*/
+
 console.log(process.env);
 
 app.set('view engine','ejs');
